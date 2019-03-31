@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="top"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="false"
+        android:text="Categories:"/>
+
+    <Button
+        android:id="@+id/colorsButton"
+        android:background="#ffa500"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Colors" />
+
+    <Button
+        android:id="@+id/sportsButton"
+        android:background="#ffa500"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Sports" />
+
+
+    <Button
+        android:id="@+id/moviesButton"
+        android:background="#ffa500"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Movies" />
+
+    <Button
+        android:id="@+id/showsButton"
+        android:background="#ffa500"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Shows" />
+
+    <Button
+        android:id="@+id/carsButton"
+        android:background="#ffa500"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Cars" />
+
+    <Button
+        android:id="@+id/storesButton"
+        android:background="#ffa500"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Stores" />
+
+    <Button
+        android:id="@+id/restButton"
+        android:background="#ffa500"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Restaurants" />
+
+    <Button
+        android:id="@+id/foodButton"
+        android:background="#ffa500"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Foods" />
+
+    <Button
+        android:id="@+id/designersButton"
+        android:background="#ffa500"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Designers" />
+
+    <Button
+        android:id="@+id/animalsButton"
+        android:background="#ffa500"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Animals" />
+
+
+</LinearLayout>
+
+
+
+
